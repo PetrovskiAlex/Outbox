@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Configurations>Debug;Release;</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Outbox\Outbox.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Neo4jClient" Version="4.0.0.1-prerelease" />
+    </ItemGroup>
+
+</Project>
