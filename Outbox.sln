@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox.Providers.Ef", "Outb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox.Providers.Neo4j", "Outbox.Providers.Neo4j\Outbox.Providers.Neo4j.csproj", "{5CB8713E-F5F6-4CB3-B753-0733262A0301}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outbox.AspNetCore", "Outbox.AspNetCore\Outbox.AspNetCore.csproj", "{87880396-FD75-4173-AB95-E46A49C54737}"
+EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4D249593-7CF0-4318-ABA7-31EF43DF002C}.|Any CPU.ActiveCfg = |Any CPU
@@ -15,6 +17,8 @@ Global
 		{91F5BE06-5FAF-4BE6-A03D-91F3EC7A0D91}.|Any CPU.Build.0 = |Any CPU
 		{5CB8713E-F5F6-4CB3-B753-0733262A0301}.|Any CPU.ActiveCfg = |Any CPU
 		{5CB8713E-F5F6-4CB3-B753-0733262A0301}.|Any CPU.Build.0 = |Any CPU
+		{87880396-FD75-4173-AB95-E46A49C54737}.|Any CPU.ActiveCfg = Debug|Any CPU
+		{87880396-FD75-4173-AB95-E46A49C54737}.|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		|Any CPU = |Any CPU
