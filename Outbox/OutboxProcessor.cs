@@ -10,7 +10,10 @@ namespace Outbox
         private readonly IOutboxMessageProcessorFactory _messageProcessorFactory;
         private readonly ILogger<OutboxProcessor<TDbContext>> _logger;
 
-        public OutboxProcessor(IOutboxDataProvider<TDbContext> dataProvider, IOutboxMessageProcessorFactory messageProcessorFactory, ILogger<OutboxProcessor<TDbContext>> logger)
+        public OutboxProcessor(
+            IOutboxDataProvider<TDbContext> dataProvider, 
+            IOutboxMessageProcessorFactory messageProcessorFactory, 
+            ILogger<OutboxProcessor<TDbContext>> logger)
         {
             _dataProvider = dataProvider;
             _messageProcessorFactory = messageProcessorFactory;

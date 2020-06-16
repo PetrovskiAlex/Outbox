@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Outbox.AspNetCore.Hosting\Outbox.AspNetCore.Hosting.csproj" />
+      <ProjectReference Include="..\Outbox.MassTransit\Outbox.MassTransit.csproj" />
+      <ProjectReference Include="..\Outbox.Providers.Neo4j\Outbox.Providers.Neo4j.csproj" />
+    </ItemGroup>
+
+</Project>
